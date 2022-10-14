@@ -1,0 +1,86 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+Text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+.InputType{
+    font-size: 25px;
+    padding: 16px;
+    text-align: center;
+    outline: none;
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+.InputType::placeholder{
+    color: #837f7f;
+}
+.InputType:hover{
+    opacity: 0.9;
+    padding: 18px;
+}
+.InputType:active {
+    background-color: #000000;
+    color:#ffffff;
+}
+.InputType:invalid{
+    border-color: red;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 2px 2px rgb(12, 10, 10);
+}
+.scale{
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width: 1680px){
+    .img{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .img{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 992px){
+    .img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:725px){
+    .img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 320px){
+    .img{
+        width: 200px;
+    }
+}
